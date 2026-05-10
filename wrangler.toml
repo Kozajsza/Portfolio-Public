@@ -1,0 +1,5 @@
+name = "portfolio-chatbot"
+compatibility_date = "2024-09-23"
+
+# OPENAI_API_KEY is set via .dev.vars for local dev
+# Set via Cloudflare Pages dashboard → Settings → Environment Variables for production

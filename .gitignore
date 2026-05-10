@@ -1,0 +1,39 @@
+# Local environment secrets — never commit
+.dev.vars
+
+# Claude Code session files — planning docs and private instructions
+_CHATBOT_TEST_RESULTS.md
+phase1summary.md
+phase2.md
+content.md
+CLAUDE*.md
+settings.local.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+*.tsbuildinfo
+
+# Wrangler local state
+.wrangler/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
