@@ -1089,7 +1089,7 @@ if (!checkRateLimit(ip)) {
   return sseError(
     "You've asked a lot of great questions! To keep costs manageable, " +
     "I limit chats to 20 messages per hour. Come back soon, or reach " +
-    "Mateusz directly at kozaq20@gmail.com."
+    "Mateusz directly at contact@mateuszkozinski.co.uk."
   )
 }`,
         language: 'typescript',

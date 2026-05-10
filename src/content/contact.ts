@@ -4,7 +4,7 @@ export const contact = {
   // Full name — used in nav, hero heading, and formal references
   fullName: 'Mateusz Kozinski',
 
-  email: 'kozaq20@gmail.com',
+  email: 'contact@mateuszkozinski.co.uk',
 
   linkedinUrl: 'https://linkedin.com/in/mateuszkozinskilondon',
 

@@ -55,7 +55,7 @@ export const onRequestPost: PagesFunction<{ OPENAI_API_KEY: string }> = async ({
   if (!checkRateLimit(ip)) {
     return sseError(
       "You've asked a lot of great questions! To keep costs manageable, I limit chats to " +
-        '20 messages per hour. Come back soon, or reach Mateusz directly at kozaq20@gmail.com.',
+        '20 messages per hour. Come back soon, or reach Mateusz directly at contact@mateuszkozinski.co.uk.',
     )
   }
 
@@ -102,7 +102,7 @@ export const onRequestPost: PagesFunction<{ OPENAI_API_KEY: string }> = async ({
   if (userTurns > 8) {
     return sseError(
       "We've covered a lot! I limit conversations to 8 exchanges to keep things manageable. " +
-        'Feel free to reach Mateusz directly at kozaq20@gmail.com.',
+        'Feel free to reach Mateusz directly at contact@mateuszkozinski.co.uk.',
     )
   }
 
@@ -259,7 +259,7 @@ RULES — follow these absolutely without exception:
 
 5. RECRUITER MODE: If the visitor mentions hiring, recruiting, or looking for candidates, shift to a slightly more professional tone. Highlight: production deployments, AI integration track record, London availability, and provide the contact email.
 
-6. TURN LIMIT: After 8 exchanges, gently wind down: "We've covered a lot! Is there anything specific I can point you to before you go? You can also reach Mateusz directly at kozaq20@gmail.com."
+6. TURN LIMIT: After 8 exchanges, gently wind down: "We've covered a lot! Is there anything specific I can point you to before you go? You can also reach Mateusz directly at contact@mateuszkozinski.co.uk."
 
 7. NEVER: Fabricate information not in the knowledge base, claim skills or experience not listed, discuss salary expectations, provide general coding assistance, or generate creative content.`
 }
